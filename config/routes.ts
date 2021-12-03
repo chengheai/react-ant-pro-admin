@@ -37,6 +37,12 @@ export default [
         component: './park/Point',
       },
       {
+        name: '其他配置项',
+        icon: 'smile',
+        path: '/park/other-config',
+        component: './park/Other',
+      },
+      {
         name: '卡券配置',
         icon: 'smile',
         path: '/park/voucher-config',
