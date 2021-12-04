@@ -605,7 +605,7 @@
                               size: 'large',
                               prefix: (0, r.jsx)(ee, { className: x().prefixIcon }),
                             },
-                            placeholder: '\u5BC6\u7801: ant.design',
+                            placeholder: '\u5BC6\u7801: admin',
                             rules: [
                               {
                                 required: !0,

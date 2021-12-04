@@ -23,6 +23,7 @@ export default defineConfig({
   targets: {
     ie: 11,
   },
+  publicPath: './',
   outputPath: 'docs',
   // umi routes: https://umijs.org/docs/routing
   routes,
