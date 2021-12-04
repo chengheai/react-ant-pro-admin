@@ -2996,10 +2996,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         var n = e(97175),
           r = { basename: '/' };
         window.routerBase && (r.basename = window.routerBase);
-        var o = { NODE_ENV: 'production' }.__IS_SERVER ? null : (0, n.lX)(r),
+        var o = { NODE_ENV: 'production' }.__IS_SERVER ? null : (0, n.q_)(r),
           i = function () {
             var s = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : !1;
-            return s || (o = (0, n.lX)(r)), o;
+            return s || (o = (0, n.q_)(r)), o;
           };
       },
       72255: function (d, f, e) {
